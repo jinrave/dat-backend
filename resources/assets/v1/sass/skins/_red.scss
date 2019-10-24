@@ -1,0 +1,33 @@
+$key           : 'red';
+$base           : $red;
+$baseColor      : $white;
+$sidebar        : $dark;
+$sidebarHover   : $dark_light;
+$dotOnline      : $green;
+$developerLeft  : $teal;
+$developerRight : $green;
+$from           : $red;
+$to             : $base;
+$shadowLoginPage: 0 3px 150px rgba(0,0,0,0.3);
+$shadowNavbar   : 0 3px 50px rgba(0,0,0,0.3);
+$shadowSidebar  : 0 0px 5px rgba(0,0,0,0.3);
+$imageDrawer    : url('./../../images/user-panel.jpg');
+$imageLoginBg    : url('./../../images/bg-login-1.jpg');
+
+@include themes(
+	$key,
+	$base,
+	$baseColor,
+	$sidebar,
+	$sidebarHover,
+	$dotOnline,
+	$developerLeft,
+	$developerRight,
+	$from,
+	$to,
+	$shadowLoginPage,
+	$shadowNavbar,
+	$shadowSidebar,
+	$imageDrawer,
+	$imageLoginBg
+);
